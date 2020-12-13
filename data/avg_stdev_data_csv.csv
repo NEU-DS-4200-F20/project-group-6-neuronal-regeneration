@@ -1,0 +1,10 @@
+﻿re_image_time,genetics,cut_type,average,stdev,n,age
+12hr,wild-type,axon,14.86847619,14.45789384,21,L2
+24hr,wild-type,axon,49.51941667,17.72293949,12,L2
+12hr,wild-type,a+d,43.27615385,16.79419941,13,L2
+24hr,wild-type,a+d,69.94973333,18.66894086,15,L2
+12hr,dlk-1,a+d,0.265533333,1.028406178,15,L2
+24hr,dlk-1,a+d,9.817125,11.79880183,16,L2
+24hr,wild-type,axon,27.66466667,21.85200037,12,YA
+24hr,wild-type,a+d,72.94427273,11.98404845,11,YA
+24hr,dlk-1,a+d,6.076454545,5.567115364,11,YA

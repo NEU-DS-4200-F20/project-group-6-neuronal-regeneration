@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 .vis-svg {
-  background-color: #f4f1f0;
+  background-color: white;
 }
 
 /* Fork on GitHub ribbon via https://codepo8.github.io/css-fork-on-github-ribbon/# */  
@@ -80,4 +80,97 @@ h1, h2, h3 {
 		-o-transform:rotate(45deg);
 		box-shadow:4px 4px 10px rgba(0,0,0,0.8);
 	}
+}
+
+circle.selected {
+
+  }
+  
+.selected {
+	fill-opacity: 0.9;
+}
+
+.selected_bar {
+	fill-opacity: 0.7;
+	stroke-width: 5px;
+}
+
+.deselected{
+	fill: black;
+}
+
+.unselected{
+	opacity: 0.5;
+}
+
+.chartText{
+	fill: black;
+	pointer-events:none
+}
+
+.unselectable{
+	pointer-events:none
+}
+
+.legendText{
+	pointer-events:none
+}
+
+.axisText{
+	font-weight: bold;
+	pointer-events:none
+}
+
+.pct_text{
+	pointer-events:none
+}
+  
+.regen0 {
+	fill: purple;
+	border: black;
+
+}
+
+.regen1 {
+	fill: blue;
+	stroke: black;
+
+}
+
+.regen2 {
+	fill: green;
+	stroke: black;
+
+}
+
+.regen3 {
+	fill: yellow;
+	stroke: black;
+
+}
+
+.regen4 {
+	fill: red;
+	border: 1px solid black;
+	stroke: black;
+
+}
+
+
+
+
+.tooltip_text{
+	fill: black;
+	pointer-events:none
+}
+
+.tooltip_box{
+	stroke: black;
+	stroke-width: 2;
+	pointer-events:none
+}
+
+.invis_box{
+	fill: white;
+	pointer-events:none
 }
